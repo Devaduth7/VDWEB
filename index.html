@@ -30,27 +30,27 @@
         }
 
         h1 {
-            font-size: 2.5em;
+            font-size: 2em; /* Smaller font size for mobile */
             margin: 0;
         }
 
         p {
-            font-size: 1.2em;
+            font-size: 1em; /* Smaller font size for mobile */
             margin: 10px 0;
         }
 
         /* javakun project text and Instagram button */
         #top-right {
             position: absolute;
-            top: 20px;
-            right: 20px;
+            top: 10px; /* Adjusted for mobile */
+            right: 10px; /* Adjusted for mobile */
             display: flex;
             align-items: center;
             gap: 10px;
         }
 
         #javakun-text {
-            font-size: 1.2em;
+            font-size: 1em; /* Smaller font size for mobile */
             color: #c62828;
             font-weight: bold;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
@@ -62,7 +62,7 @@
             border: none;
             padding: 8px 16px;
             border-radius: 25px;
-            font-size: 1em;
+            font-size: 0.9em; /* Smaller font size for mobile */
             cursor: pointer;
             transition: all 0.3s ease;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -88,10 +88,12 @@
             border-radius: 15px;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
             margin: 20px;
+            width: 90%; /* Adjusted for mobile */
+            max-width: 400px; /* Limit width for larger screens */
         }
 
         #start-screen h2 {
-            font-size: 1.8em;
+            font-size: 1.5em; /* Smaller font size for mobile */
             color: #c62828;
         }
 
@@ -107,6 +109,7 @@
             transition: all 0.3s ease;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
             margin: 10px;
+            width: 100%; /* Full width for mobile */
         }
 
         .btn:hover {
@@ -128,16 +131,18 @@
             border-radius: 15px;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
             margin: 20px;
+            width: 90%; /* Adjusted for mobile */
+            max-width: 400px; /* Limit width for larger screens */
         }
 
         #couple-names {
-            font-size: 1.5em;
+            font-size: 1.2em; /* Smaller font size for mobile */
             color: #c62828;
             margin-bottom: 20px;
         }
 
         #timer {
-            font-size: 1.5em;
+            font-size: 1.2em; /* Smaller font size for mobile */
             font-weight: bold;
             color: #c62828;
             margin-bottom: 20px;
@@ -146,7 +151,7 @@
         /* 6-Second Message */
         #instruction-message {
             display: none;
-            font-size: 1.5em;
+            font-size: 1.2em; /* Smaller font size for mobile */
             color: #c62828;
             margin: 20px;
         }
@@ -154,21 +159,21 @@
         /* Game Board */
         #game-board {
             display: grid;
-            grid-template-columns: repeat(4, 100px);
-            grid-gap: 15px;
+            grid-template-columns: repeat(4, 1fr); /* Responsive grid */
+            grid-gap: 10px; /* Smaller gap for mobile */
             justify-content: center;
             margin: 20px auto;
         }
 
         .card {
-            width: 100px;
-            height: 100px;
+            width: 100%; /* Full width for mobile */
+            height: 80px; /* Adjusted height for mobile */
             background: linear-gradient(135deg, #c62828, #ff6f61);
             color: white;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 36px;
+            font-size: 24px; /* Smaller font size for mobile */
             cursor: pointer;
             border-radius: 15px;
             transition: transform 0.3s ease, background 0.3s ease;
@@ -190,7 +195,7 @@
         /* Win Message */
         #win-message {
             display: none;
-            font-size: 2em;
+            font-size: 1.5em; /* Smaller font size for mobile */
             color: #c62828;
             margin: 20px;
         }
@@ -198,7 +203,7 @@
         /* Game Over Message */
         #game-over-message {
             display: none;
-            font-size: 2em;
+            font-size: 1.5em; /* Smaller font size for mobile */
             color: #c62828;
             margin: 20px;
         }
@@ -207,6 +212,7 @@
         #play-again {
             display: none;
             margin: 20px auto;
+            width: 100%; /* Full width for mobile */
         }
 
         /* Pop-up Message */
@@ -221,10 +227,12 @@
             border-radius: 15px;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
             z-index: 1000;
+            width: 80%; /* Adjusted width for mobile */
+            max-width: 300px; /* Limit width for larger screens */
         }
 
         .popup p {
-            font-size: 1.2em;
+            font-size: 1em; /* Smaller font size for mobile */
             color: #c62828;
         }
 
